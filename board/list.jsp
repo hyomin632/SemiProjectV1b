@@ -80,9 +80,9 @@
 	                <td>${fn:substring(r.regdate, 0, 10)}</td>
 	                <td>${r.views}</td>
 	            </tr>
-            </c:forEach>
-            
+	    </c:forEach>
             </tbody>
+		    
             <tfoot>
                 <tr><td colspan="5" class="tbnav">
                     <span>◀◀ ◁<span class="cpage">1</span> 2 3 4 5 6 7 8 9 10 ▷ ▶▶</span>
